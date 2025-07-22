@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url(praia.jpg);
+    background-attachment: fixed;
+    font-family: 'Work Sans', Arial, Verdana, sans-serif;
+}
+
+header {
+    background-color: lightcyan;
+    width: 850px;
+    border-radius: 5px;
+    border-style: groove;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.212);
+    margin: 15px auto 25px auto;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+header > h1 {
+    margin: 10px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.342);
+    padding: 25px;
+    margin: auto;
+}
+
+section {
+    margin-top: -15px;
+}
+
+article > h1 {
+    text-align: center;
+    background-color: rgba(184, 135, 11, 0.479);
+    border-radius: 5px;
+    border-style: groove;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;    
+    color: darkgoldenrod;
+}
