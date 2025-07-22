@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-image: url(praia.jpg);
+    background-image: url(../imagens/praia.jpg);
     background-attachment: fixed;
     font-family: 'Work Sans', Arial, Verdana, sans-serif;
 }
